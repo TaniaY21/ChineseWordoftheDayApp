@@ -1,0 +1,907 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1774E6187CF9FE763422BA45 /* Pods_HSK_5_Chinese_Word_of_the_Day.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF4DC204302F2F254C25E731 /* Pods_HSK_5_Chinese_Word_of_the_Day.framework */; };
+		C70D7FB825B2F34B0072EB85 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C70D7F5525B2E7E20072EB85 /* WidgetKit.framework */; };
+		C70D7FB925B2F34B0072EB85 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C70D7F5725B2E7E20072EB85 /* SwiftUI.framework */; };
+		C70D7FBC25B2F34B0072EB85 /* HSK5Widget.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70D7FBB25B2F34B0072EB85 /* HSK5Widget.swift */; };
+		C70D7FBE25B2F3510072EB85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C70D7FBD25B2F3510072EB85 /* Assets.xcassets */; };
+		C70D7FC225B2F3510072EB85 /* HSK5WidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C70D7FB725B2F34A0072EB85 /* HSK5WidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C70D7FC825B330B30072EB85 /* ChineseVocab.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C22AC82593B3A500B1261A /* ChineseVocab.swift */; };
+		C70D7FCF25B33EB70072EB85 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C22AC02593B27D00B1261A /* Constants.swift */; };
+		C736157A25D1A253005C8C75 /* UIAlertControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C736157925D1A253005C8C75 /* UIAlertControllerExtension.swift */; };
+		C75FAD4C26109AB1002EA2E6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C75FAD4126109AB1002EA2E6 /* GoogleService-Info.plist */; };
+		C7C22AA42593B06A00B1261A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C22AA32593B06A00B1261A /* AppDelegate.swift */; };
+		C7C22AA62593B06A00B1261A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C22AA52593B06A00B1261A /* SceneDelegate.swift */; };
+		C7C22AA82593B06A00B1261A /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C22AA72593B06A00B1261A /* HomeVC.swift */; };
+		C7C22AAB2593B06A00B1261A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7C22AA92593B06A00B1261A /* Main.storyboard */; };
+		C7C22AAD2593B06D00B1261A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7C22AAC2593B06D00B1261A /* Assets.xcassets */; };
+		C7C22AB02593B06D00B1261A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7C22AAE2593B06D00B1261A /* LaunchScreen.storyboard */; };
+		C7C22ABB2593B17400B1261A /* SparkButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C22ABA2593B17400B1261A /* SparkButton.swift */; };
+		C7C22AC12593B27D00B1261A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C22AC02593B27D00B1261A /* Constants.swift */; };
+		C7C22AC92593B3A500B1261A /* ChineseVocab.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C22AC82593B3A500B1261A /* ChineseVocab.swift */; };
+		C7C22ACC2593B3B400B1261A /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C22ACB2593B3B400B1261A /* RealmManager.swift */; };
+		C7C22AD32593B4B000B1261A /* FaveVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C22AD22593B4B000B1261A /* FaveVC.swift */; };
+		C7C22AD92593BAB500B1261A /* FlashcardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C22AD82593BAB500B1261A /* FlashcardVC.swift */; };
+		C7C22AE82594ED2D00B1261A /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C22AE72594ED2D00B1261A /* SettingsVC.swift */; };
+		C7C22AEB2594ED5000B1261A /* SettingsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C22AEA2594ED5000B1261A /* SettingsCell.swift */; };
+		C7C22AF2259512B900B1261A /* notification.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C7C22AF1259512B900B1261A /* notification.mp3 */; };
+		C7C22AFF2595144A00B1261A /* Admob.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C22AFE2595144A00B1261A /* Admob.swift */; };
+		C7C6110125BDD86300EC7DB6 /* cow.json in Resources */ = {isa = PBXBuildFile; fileRef = C7C6110025BDD86300EC7DB6 /* cow.json */; };
+		C7CCBB8A259F553800994019 /* HSK 5.json in Resources */ = {isa = PBXBuildFile; fileRef = C7CCBB89259F553800994019 /* HSK 5.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C70D7FC025B2F3510072EB85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7C22A982593B06A00B1261A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C70D7FB625B2F34A0072EB85;
+			remoteInfo = HSK5WidgetExtension;
+		};
+		C70D7FE325B43B5C0072EB85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C70D7F8B25B2ED160072EB85 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 40174C8E8CE21726FD14C2F752320F59;
+			remoteInfo = LayoutHelper;
+		};
+		C70D7FE725B43B5C0072EB85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C70D7F8B25B2ED160072EB85 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1C31487F536BCE22561AE0B333BB4B93;
+			remoteInfo = "Pods-HSK 5 Chinese Word of the Day";
+		};
+		C70D7FEB25B43B5C0072EB85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C70D7F8B25B2ED160072EB85 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 921BE4A82C4A7A5C72A0C6F8B8FEF200;
+			remoteInfo = Realm;
+		};
+		C70D7FED25B43B5C0072EB85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C70D7F8B25B2ED160072EB85 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 437919EE08EC6BFCCBAC3BD346309742;
+			remoteInfo = RealmSwift;
+		};
+		C758EED625D3E853004A5977 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C70D7F8B25B2ED160072EB85 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B43874C6CBB50E7134FBEC24BABFE14F;
+			remoteInfo = GoogleUtilities;
+		};
+		C758EED825D3E853004A5977 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C70D7F8B25B2ED160072EB85 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 06FC5C9CF96D60C50FCD47D339C91951;
+			remoteInfo = nanopb;
+		};
+		C758EEDA25D3E853004A5977 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C70D7F8B25B2ED160072EB85 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3347A1AB6546F0A3977529B8F199DC41;
+			remoteInfo = PromisesObjC;
+		};
+		C75E07322610BA420027F893 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C70D7F8B25B2ED160072EB85 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2DA0D814DFCB860D31D7BCD63D795858;
+			remoteInfo = FirebaseInstanceID;
+		};
+		C75E07342610BA420027F893 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C70D7F8B25B2ED160072EB85 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5B654B4B042BA7DC93766943A643E42B;
+			remoteInfo = FirebaseMessaging;
+		};
+		C75FAD7226109F67002EA2E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C70D7F8B25B2ED160072EB85 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E2B63D462DB7F827C4B11FD51E4F8E2D;
+			remoteInfo = FirebaseCore;
+		};
+		C75FAD7426109F67002EA2E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C70D7F8B25B2ED160072EB85 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8CC9178C366942FD6FF6A115604EAD58;
+			remoteInfo = FirebaseCoreDiagnostics;
+		};
+		C75FAD7626109F67002EA2E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C70D7F8B25B2ED160072EB85 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 13C8C8B254851998F9289F71229B28A2;
+			remoteInfo = FirebaseInstallations;
+		};
+		C75FAD7826109F67002EA2E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C70D7F8B25B2ED160072EB85 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 856B5CD56F194FAD26EA91620B66D614;
+			remoteInfo = GoogleDataTransport;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C70D7FC625B2F3510072EB85 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C70D7FC225B2F3510072EB85 /* HSK5WidgetExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		51F3BB1DC8B974702B0B4553 /* Pods-HSK 5 Chinese Word of the Day.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HSK 5 Chinese Word of the Day.debug.xcconfig"; path = "Target Support Files/Pods-HSK 5 Chinese Word of the Day/Pods-HSK 5 Chinese Word of the Day.debug.xcconfig"; sourceTree = "<group>"; };
+		9F4EF328A8A4B0A01BFA5B71 /* Pods-HSK 5 Chinese Word of the Day.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HSK 5 Chinese Word of the Day.release.xcconfig"; path = "Target Support Files/Pods-HSK 5 Chinese Word of the Day/Pods-HSK 5 Chinese Word of the Day.release.xcconfig"; sourceTree = "<group>"; };
+		C70D7F5525B2E7E20072EB85 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		C70D7F5725B2E7E20072EB85 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		C70D7F8B25B2ED160072EB85 /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Pods.xcodeproj; sourceTree = "<group>"; };
+		C70D7FB725B2F34A0072EB85 /* HSK5WidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = HSK5WidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		C70D7FBB25B2F34B0072EB85 /* HSK5Widget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSK5Widget.swift; sourceTree = "<group>"; };
+		C70D7FBD25B2F3510072EB85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C70D7FBF25B2F3510072EB85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C70D7FCD25B33E6C0072EB85 /* HSK5WidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HSK5WidgetExtension.entitlements; sourceTree = "<group>"; };
+		C736157925D1A253005C8C75 /* UIAlertControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIAlertControllerExtension.swift; sourceTree = "<group>"; };
+		C75FAD4126109AB1002EA2E6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C7C22AA02593B06A00B1261A /* HSK 5 Chinese Word of the Day.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HSK 5 Chinese Word of the Day.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7C22AA32593B06A00B1261A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C7C22AA52593B06A00B1261A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C7C22AA72593B06A00B1261A /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		C7C22AAA2593B06A00B1261A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C7C22AAC2593B06D00B1261A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "HSK 5 Chinese Word of the Day/Assets.xcassets"; sourceTree = SOURCE_ROOT; };
+		C7C22AAF2593B06D00B1261A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C7C22AB12593B06D00B1261A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7C22ABA2593B17400B1261A /* SparkButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SparkButton.swift; sourceTree = "<group>"; };
+		C7C22AC02593B27D00B1261A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		C7C22AC82593B3A500B1261A /* ChineseVocab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChineseVocab.swift; sourceTree = "<group>"; };
+		C7C22ACB2593B3B400B1261A /* RealmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
+		C7C22AD22593B4B000B1261A /* FaveVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaveVC.swift; sourceTree = "<group>"; };
+		C7C22AD82593BAB500B1261A /* FlashcardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardVC.swift; sourceTree = "<group>"; };
+		C7C22AE72594ED2D00B1261A /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
+		C7C22AEA2594ED5000B1261A /* SettingsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsCell.swift; sourceTree = "<group>"; };
+		C7C22AF1259512B900B1261A /* notification.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = notification.mp3; sourceTree = "<group>"; };
+		C7C22AFE2595144A00B1261A /* Admob.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Admob.swift; sourceTree = "<group>"; };
+		C7C6110025BDD86300EC7DB6 /* cow.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cow.json; sourceTree = "<group>"; };
+		C7CCBB89259F553800994019 /* HSK 5.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "HSK 5.json"; sourceTree = "<group>"; };
+		C7D0382D25A20B690099126F /* HSK 5 Chinese Word of the Day.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "HSK 5 Chinese Word of the Day.entitlements"; sourceTree = "<group>"; };
+		C7D0383025A2129F0099126F /* WidgetHSK5Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WidgetHSK5Extension.entitlements; sourceTree = "<group>"; };
+		CF4DC204302F2F254C25E731 /* Pods_HSK_5_Chinese_Word_of_the_Day.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HSK_5_Chinese_Word_of_the_Day.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C70D7FB425B2F34A0072EB85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C70D7FB925B2F34B0072EB85 /* SwiftUI.framework in Frameworks */,
+				C70D7FB825B2F34B0072EB85 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7C22A9D2593B06A00B1261A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1774E6187CF9FE763422BA45 /* Pods_HSK_5_Chinese_Word_of_the_Day.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FC7D428ACFF90DC6C12618E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C70D7F8B25B2ED160072EB85 /* Pods.xcodeproj */,
+				51F3BB1DC8B974702B0B4553 /* Pods-HSK 5 Chinese Word of the Day.debug.xcconfig */,
+				9F4EF328A8A4B0A01BFA5B71 /* Pods-HSK 5 Chinese Word of the Day.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AA2A99B9D1F2BA984329FEDA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF4DC204302F2F254C25E731 /* Pods_HSK_5_Chinese_Word_of_the_Day.framework */,
+				C70D7F5525B2E7E20072EB85 /* WidgetKit.framework */,
+				C70D7F5725B2E7E20072EB85 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C70D7FBA25B2F34B0072EB85 /* HSK5Widget */ = {
+			isa = PBXGroup;
+			children = (
+				C70D7FBB25B2F34B0072EB85 /* HSK5Widget.swift */,
+				C70D7FBD25B2F3510072EB85 /* Assets.xcassets */,
+				C70D7FBF25B2F3510072EB85 /* Info.plist */,
+			);
+			path = HSK5Widget;
+			sourceTree = "<group>";
+		};
+		C70D7FD525B43B5C0072EB85 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C75FAD7326109F67002EA2E6 /* FirebaseCore.framework */,
+				C75FAD7526109F67002EA2E6 /* FirebaseCoreDiagnostics.framework */,
+				C75FAD7726109F67002EA2E6 /* FirebaseInstallations.framework */,
+				C75E07332610BA420027F893 /* FirebaseInstanceID.framework */,
+				C75E07352610BA420027F893 /* FirebaseMessaging.framework */,
+				C75FAD7926109F67002EA2E6 /* GoogleDataTransport.framework */,
+				C758EED725D3E853004A5977 /* GoogleUtilities.framework */,
+				C70D7FE425B43B5C0072EB85 /* LayoutHelper.framework */,
+				C758EED925D3E853004A5977 /* nanopb.framework */,
+				C70D7FE825B43B5C0072EB85 /* Pods_HSK_5_Chinese_Word_of_the_Day.framework */,
+				C758EEDB25D3E853004A5977 /* FBLPromises.framework */,
+				C70D7FEC25B43B5C0072EB85 /* Realm.framework */,
+				C70D7FEE25B43B5C0072EB85 /* RealmSwift.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7C22A972593B06A00B1261A = {
+			isa = PBXGroup;
+			children = (
+				C70D7FCD25B33E6C0072EB85 /* HSK5WidgetExtension.entitlements */,
+				C7D0383025A2129F0099126F /* WidgetHSK5Extension.entitlements */,
+				C7C22AA22593B06A00B1261A /* HSK 5 Chinese Word of the Day */,
+				C70D7FBA25B2F34B0072EB85 /* HSK5Widget */,
+				C7C22AA12593B06A00B1261A /* Products */,
+				3FC7D428ACFF90DC6C12618E /* Pods */,
+				AA2A99B9D1F2BA984329FEDA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C7C22AA12593B06A00B1261A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7C22AA02593B06A00B1261A /* HSK 5 Chinese Word of the Day.app */,
+				C70D7FB725B2F34A0072EB85 /* HSK5WidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7C22AA22593B06A00B1261A /* HSK 5 Chinese Word of the Day */ = {
+			isa = PBXGroup;
+			children = (
+				C7D0382D25A20B690099126F /* HSK 5 Chinese Word of the Day.entitlements */,
+				C7C22AA32593B06A00B1261A /* AppDelegate.swift */,
+				C7C22AA52593B06A00B1261A /* SceneDelegate.swift */,
+				C7C22AB92593B16200B1261A /* Model */,
+				C7C22ABE2593B20B00B1261A /* Controller */,
+				C7C22AA92593B06A00B1261A /* Main.storyboard */,
+				C7C22AAC2593B06D00B1261A /* Assets.xcassets */,
+				C7C6110025BDD86300EC7DB6 /* cow.json */,
+				C7C22AF1259512B900B1261A /* notification.mp3 */,
+				C7C22AAE2593B06D00B1261A /* LaunchScreen.storyboard */,
+				C75FAD4126109AB1002EA2E6 /* GoogleService-Info.plist */,
+				C7C22AB12593B06D00B1261A /* Info.plist */,
+			);
+			path = "HSK 5 Chinese Word of the Day";
+			sourceTree = "<group>";
+		};
+		C7C22AB92593B16200B1261A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C7CCBB89259F553800994019 /* HSK 5.json */,
+				C7C22ABA2593B17400B1261A /* SparkButton.swift */,
+				C7C22AC02593B27D00B1261A /* Constants.swift */,
+				C7C22AC82593B3A500B1261A /* ChineseVocab.swift */,
+				C7C22ACB2593B3B400B1261A /* RealmManager.swift */,
+				C7C22AFE2595144A00B1261A /* Admob.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C7C22ABE2593B20B00B1261A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C7C22AA72593B06A00B1261A /* HomeVC.swift */,
+				C736157925D1A253005C8C75 /* UIAlertControllerExtension.swift */,
+				C7C22AD22593B4B000B1261A /* FaveVC.swift */,
+				C7C22AD82593BAB500B1261A /* FlashcardVC.swift */,
+				C7C22AE72594ED2D00B1261A /* SettingsVC.swift */,
+				C7C22AEA2594ED5000B1261A /* SettingsCell.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C70D7FB625B2F34A0072EB85 /* HSK5WidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C70D7FC325B2F3510072EB85 /* Build configuration list for PBXNativeTarget "HSK5WidgetExtension" */;
+			buildPhases = (
+				C70D7FB325B2F34A0072EB85 /* Sources */,
+				C70D7FB425B2F34A0072EB85 /* Frameworks */,
+				C70D7FB525B2F34A0072EB85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HSK5WidgetExtension;
+			productName = HSK5WidgetExtension;
+			productReference = C70D7FB725B2F34A0072EB85 /* HSK5WidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		C7C22A9F2593B06A00B1261A /* HSK 5 Chinese Word of the Day */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7C22AB42593B06D00B1261A /* Build configuration list for PBXNativeTarget "HSK 5 Chinese Word of the Day" */;
+			buildPhases = (
+				ECA594D4D95A1B8A60EADDD3 /* [CP] Check Pods Manifest.lock */,
+				C7C22A9C2593B06A00B1261A /* Sources */,
+				C7C22A9D2593B06A00B1261A /* Frameworks */,
+				C7C22A9E2593B06A00B1261A /* Resources */,
+				0D60C6B33EC246F35B6FA316 /* [CP] Embed Pods Frameworks */,
+				C70D7FC625B2F3510072EB85 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C70D7FC125B2F3510072EB85 /* PBXTargetDependency */,
+			);
+			name = "HSK 5 Chinese Word of the Day";
+			productName = "HSK 5 Chinese Word of the Day";
+			productReference = C7C22AA02593B06A00B1261A /* HSK 5 Chinese Word of the Day.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7C22A982593B06A00B1261A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					C70D7FB625B2F34A0072EB85 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					C7C22A9F2593B06A00B1261A = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = C7C22A9B2593B06A00B1261A /* Build configuration list for PBXProject "HSK 5 Chinese Word of the Day" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C7C22A972593B06A00B1261A;
+			packageReferences = (
+				C7C610FC25BDD3FF00EC7DB6 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
+			productRefGroup = C7C22AA12593B06A00B1261A /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = C70D7FD525B43B5C0072EB85 /* Products */;
+					ProjectRef = C70D7F8B25B2ED160072EB85 /* Pods.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				C7C22A9F2593B06A00B1261A /* HSK 5 Chinese Word of the Day */,
+				C70D7FB625B2F34A0072EB85 /* HSK5WidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		C70D7FE425B43B5C0072EB85 /* LayoutHelper.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = LayoutHelper.framework;
+			remoteRef = C70D7FE325B43B5C0072EB85 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C70D7FE825B43B5C0072EB85 /* Pods_HSK_5_Chinese_Word_of_the_Day.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Pods_HSK_5_Chinese_Word_of_the_Day.framework;
+			remoteRef = C70D7FE725B43B5C0072EB85 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C70D7FEC25B43B5C0072EB85 /* Realm.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Realm.framework;
+			remoteRef = C70D7FEB25B43B5C0072EB85 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C70D7FEE25B43B5C0072EB85 /* RealmSwift.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = RealmSwift.framework;
+			remoteRef = C70D7FED25B43B5C0072EB85 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C758EED725D3E853004A5977 /* GoogleUtilities.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = GoogleUtilities.framework;
+			remoteRef = C758EED625D3E853004A5977 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C758EED925D3E853004A5977 /* nanopb.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = nanopb.framework;
+			remoteRef = C758EED825D3E853004A5977 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C758EEDB25D3E853004A5977 /* FBLPromises.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = FBLPromises.framework;
+			remoteRef = C758EEDA25D3E853004A5977 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C75E07332610BA420027F893 /* FirebaseInstanceID.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = FirebaseInstanceID.framework;
+			remoteRef = C75E07322610BA420027F893 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C75E07352610BA420027F893 /* FirebaseMessaging.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = FirebaseMessaging.framework;
+			remoteRef = C75E07342610BA420027F893 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C75FAD7326109F67002EA2E6 /* FirebaseCore.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = FirebaseCore.framework;
+			remoteRef = C75FAD7226109F67002EA2E6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C75FAD7526109F67002EA2E6 /* FirebaseCoreDiagnostics.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = FirebaseCoreDiagnostics.framework;
+			remoteRef = C75FAD7426109F67002EA2E6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C75FAD7726109F67002EA2E6 /* FirebaseInstallations.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = FirebaseInstallations.framework;
+			remoteRef = C75FAD7626109F67002EA2E6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C75FAD7926109F67002EA2E6 /* GoogleDataTransport.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = GoogleDataTransport.framework;
+			remoteRef = C75FAD7826109F67002EA2E6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C70D7FB525B2F34A0072EB85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C70D7FBE25B2F3510072EB85 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7C22A9E2593B06A00B1261A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7C22AF2259512B900B1261A /* notification.mp3 in Resources */,
+				C7C22AB02593B06D00B1261A /* LaunchScreen.storyboard in Resources */,
+				C7CCBB8A259F553800994019 /* HSK 5.json in Resources */,
+				C7C22AAD2593B06D00B1261A /* Assets.xcassets in Resources */,
+				C7C22AAB2593B06A00B1261A /* Main.storyboard in Resources */,
+				C7C6110125BDD86300EC7DB6 /* cow.json in Resources */,
+				C75FAD4C26109AB1002EA2E6 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D60C6B33EC246F35B6FA316 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HSK 5 Chinese Word of the Day/Pods-HSK 5 Chinese Word of the Day-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HSK 5 Chinese Word of the Day/Pods-HSK 5 Chinese Word of the Day-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HSK 5 Chinese Word of the Day/Pods-HSK 5 Chinese Word of the Day-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECA594D4D95A1B8A60EADDD3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HSK 5 Chinese Word of the Day-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C70D7FB325B2F34A0072EB85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C70D7FBC25B2F34B0072EB85 /* HSK5Widget.swift in Sources */,
+				C70D7FC825B330B30072EB85 /* ChineseVocab.swift in Sources */,
+				C70D7FCF25B33EB70072EB85 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7C22A9C2593B06A00B1261A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7C22AA82593B06A00B1261A /* HomeVC.swift in Sources */,
+				C7C22AFF2595144A00B1261A /* Admob.swift in Sources */,
+				C7C22ABB2593B17400B1261A /* SparkButton.swift in Sources */,
+				C7C22AD32593B4B000B1261A /* FaveVC.swift in Sources */,
+				C7C22AA42593B06A00B1261A /* AppDelegate.swift in Sources */,
+				C7C22AD92593BAB500B1261A /* FlashcardVC.swift in Sources */,
+				C7C22AC92593B3A500B1261A /* ChineseVocab.swift in Sources */,
+				C7C22AA62593B06A00B1261A /* SceneDelegate.swift in Sources */,
+				C736157A25D1A253005C8C75 /* UIAlertControllerExtension.swift in Sources */,
+				C7C22ACC2593B3B400B1261A /* RealmManager.swift in Sources */,
+				C7C22AC12593B27D00B1261A /* Constants.swift in Sources */,
+				C7C22AE82594ED2D00B1261A /* SettingsVC.swift in Sources */,
+				C7C22AEB2594ED5000B1261A /* SettingsCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C70D7FC125B2F3510072EB85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C70D7FB625B2F34A0072EB85 /* HSK5WidgetExtension */;
+			targetProxy = C70D7FC025B2F3510072EB85 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C7C22AA92593B06A00B1261A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7C22AAA2593B06A00B1261A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C7C22AAE2593B06D00B1261A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7C22AAF2593B06D00B1261A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C70D7FC425B2F3510072EB85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = HSK5WidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = 9R6JQXR67K;
+				INFOPLIST_FILE = HSK5Widget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.themodernmultilingual.HSK-5-Chinese-Word-of-the-Day.HSK5Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C70D7FC525B2F3510072EB85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = HSK5WidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = 9R6JQXR67K;
+				INFOPLIST_FILE = HSK5Widget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.themodernmultilingual.HSK-5-Chinese-Word-of-the-Day.HSK5Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C7C22AB22593B06D00B1261A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C7C22AB32593B06D00B1261A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C7C22AB52593B06D00B1261A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51F3BB1DC8B974702B0B4553 /* Pods-HSK 5 Chinese Word of the Day.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "HSK 5 Chinese Word of the Day/HSK 5 Chinese Word of the Day.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = 9R6JQXR67K;
+				INFOPLIST_FILE = "HSK 5 Chinese Word of the Day/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1.2;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.themodernmultilingual.HSK-5-Chinese-Word-of-the-Day";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C7C22AB62593B06D00B1261A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F4EF328A8A4B0A01BFA5B71 /* Pods-HSK 5 Chinese Word of the Day.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "HSK 5 Chinese Word of the Day/HSK 5 Chinese Word of the Day.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = 9R6JQXR67K;
+				INFOPLIST_FILE = "HSK 5 Chinese Word of the Day/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1.2;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.themodernmultilingual.HSK-5-Chinese-Word-of-the-Day";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C70D7FC325B2F3510072EB85 /* Build configuration list for PBXNativeTarget "HSK5WidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C70D7FC425B2F3510072EB85 /* Debug */,
+				C70D7FC525B2F3510072EB85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7C22A9B2593B06A00B1261A /* Build configuration list for PBXProject "HSK 5 Chinese Word of the Day" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7C22AB22593B06D00B1261A /* Debug */,
+				C7C22AB32593B06D00B1261A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7C22AB42593B06D00B1261A /* Build configuration list for PBXNativeTarget "HSK 5 Chinese Word of the Day" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7C22AB52593B06D00B1261A /* Debug */,
+				C7C22AB62593B06D00B1261A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C7C610FC25BDD3FF00EC7DB6 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.9;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+	};
+	rootObject = C7C22A982593B06A00B1261A /* Project object */;
+}
