@@ -82,11 +82,11 @@ struct Constants {
         static let About = "About"
         static let PrivacyPolicy = "Privacy Policy"
         static let LockIcloudIcon = "lock.icloud"
-        static let GithubPrivacy = "https://themodernmultilingual.github.io/privacypolicy.html"
+        static let GithubPrivacy = "https://taniay21.github.io/ChineseWordOfTheDay/privacypolicy.html"
         
         static let Terms = "Terms & Conditions"
         static let DocIcon = "doc.text"
-        static let GithubTerms = "https://themodernmultilingual.github.io/terms.html"
+        static let GithubTerms = "https://taniay21.github.io/ChineseWordOfTheDay/terms.html"
      
     }
 }
